@@ -2,7 +2,7 @@ import React from 'react'
 
 import Grid from "../assets/grid.svg"
 import Circle from "../assets/circle2.svg"
-import Logo from "../assets/65Anos.svg"
+import Logo from "../assets/65anos.svg"
 
 const Team = () => {
   return (
