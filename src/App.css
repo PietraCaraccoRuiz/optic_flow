@@ -1,42 +1,74 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+.clip-pontuda {
+  clip-path: polygon(50% 0, 100% 50%, 60% 100%, 0 50%);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.baixo {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cima {
+  clip-path: polygon(50% 0%, 100% 20%, 100% 100%, 0% 100%, 0% 20%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+.border-light {
+    background: radial-gradient(
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 0.058) 70%, 
+        rgba(255, 255, 255, 0.297) 100%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.305);
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25); /* profundidade */
+    backdrop-filter: blur(10px); /* vidro fosco */
+    -webkit-backdrop-filter: blur(10px);
 }
 
-.card {
-  padding: 2em;
+.item-tech {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.136) 0%,  
+        rgba(255, 255, 255, 0.31) 100%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.305);
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25); /* profundidade */
+    backdrop-filter: blur(10px); /* vidro fosco */
+    -webkit-backdrop-filter: blur(10px);
 }
 
-.read-the-docs {
-  color: #888;
+
+/* camada interna para contraste */
+.border-light::after {
+    content: '';
+    position: absolute;
+    inset: 1px;
+    background: rgba(26, 26, 26, 0.7); /* sem ficar totalmente preto */
+    border-radius: calc(1rem - 1px);
+    z-index: 1;
+}
+
+.card-radial {
+    background: radial-gradient(
+        #1e3935 0%, 
+        #2f4849 50%, 
+        #1C2C31 100%
+    );
+}
+
+.card-gradient {
+  background: linear-gradient(
+    180deg,      /* direção de cima para baixo */
+    #60838E 0%,  /* topo claro */
+    #7FDAB8 25%, /* meio */
+    #BBE7C4 50%, /* centro mais escuro */
+    #28966e 75%, /* meio novamente */
+    #BBE7C4 100% /* fundo claro */
+  );
 }

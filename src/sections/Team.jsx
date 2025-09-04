@@ -1,0 +1,18 @@
+import React from 'react'
+
+import Grid from "../assets/grid.svg"
+import Circle from "../assets/circle2.svg"
+import Logo from "../assets/65Anos.svg"
+
+const Team = () => {
+  return (
+    <div className='relative w-full h-80'>
+        <img className='absolute bottom-0' src={Grid} />
+        <img className='absolute bottom-0 w-30 z-4' src={Circle} />
+        <img className='absolute bottom-0 w-25 z-4' src={Logo} />
+        <div className='absolute bottom-0 w-full h-45 bg-gradient-to-b from-[#131416]/60 to-[#131416]/0' src={Grid} />
+    </div>
+  )
+}
+
+export default Team
