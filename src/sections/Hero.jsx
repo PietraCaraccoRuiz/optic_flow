@@ -21,8 +21,8 @@ const Hero = () => {
           <div className="absolute flex gap-2 items-center">
             <img src={Logo} className="w-10" />
             <h1 className="text-2xl bg-gradient-to-b from-white to-gray-400/50 bg-clip-text text-transparent">
-              Optic
-              <span className="font-semibold">Flow</span>
+              Safety
+              <span className="font-semibold">Sight</span>
             </h1>
           </div>
           <img
@@ -40,9 +40,15 @@ const Hero = () => {
       <div className="flex relative w-full top-30 z-1">
         <img src={Circle} className="absolute w-40 right-0 -top-10" />
         <img src={Camera} className="absolute w-40 left-0 z-2" />
-        <div className="absolute w-65 h-28 mt-4 rounded-2xl border-light z-1 flex flex-col justify-center items-center left-18 gap-1">
+        <div className="absolute w-65 h-30 mt-4 rounded-2xl border-light z-1 flex flex-col justify-center items-center left-18 gap-1">
           <h1 className="text-white text-[1.9vh] pl-10 font-semibold z-2">Overview</h1>
-          <p className="bg-gradient-to-l from-white to-gray-400/50 text-[1.2vh] pl-15 pr-5 text-center bg-clip-text text-transparent z-2">WISE is a solution developed to meet a need at the Curitiba plant. There, the groundwater extraction process requires quality control. Currently, samples are collected manually with pen and paper, leading to inconsistencies and data loss.</p>
+           <p className="bg-gradient-to-l from-white to-gray-800/80 text-[1.2vh] pl-15 pr-5 text-justify bg-clip-text text-transparent z-2">
+            <span className=" text-white">SafetySight</span> is an artificial intelligence system developed to
+            enhance safety in industrial environments. Using factory-installed
+            cameras and computer vision algorithms, the AI ​​performs real-time
+            verification of employees' correct use of Personal Protective
+            Equipment (PPE).{" "}
+          </p>
         </div>
       </div>
     </div>

@@ -1,5 +1,9 @@
-import React from "react";
 import ItemTech from "../components/ItemTech";
+import Python from "../assets/python.svg";
+import Django from "../assets/django.svg";
+import Yolo from "../assets/yolo.svg";
+import Tailwind from "../assets/tailwind.svg";
+import React from "../assets/react.svg";
 
 const Technologies = () => {
   return (
@@ -9,11 +13,11 @@ const Technologies = () => {
           Technologies & Tools
         </h1>
         <div  className="flex  gap-2">
-          <ItemTech />
-          <ItemTech />
-          <ItemTech />
-          <ItemTech />
-          <ItemTech />
+          <ItemTech img={Python}/>
+          <ItemTech img={Django}/>
+          <ItemTech img={Yolo}/>
+          <ItemTech img={Tailwind}/>
+          <ItemTech img={React}/>
         </div>
       </div>
     </div>
