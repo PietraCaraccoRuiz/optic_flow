@@ -18,7 +18,7 @@ const Card = ({ top, shadow, z, rotate, translateX, translateY , img, text, p}) 
         <div className={`w-[22vh] h-[25.5vh] rounded-2xl card-radial mt-0.5 flex flex-col justify-start items-center ${p}`}>
           {text ? <h1 className="text-[1.5vh] bg-gradient-to-b from-white to-gray-400/50 bg-clip-text text-transparent mt-4">Artificial intelligence</h1> : <></>  }
           
-          <img src={img}></img>
+          <img src={img} className="opacity-10"></img>
         </div>
       </div>
     </>

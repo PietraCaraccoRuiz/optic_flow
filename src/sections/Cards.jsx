@@ -40,7 +40,7 @@ const Cards = () => {
         z={2}
         img={AI}
         text={true}
-        p={""} />
+        p={"bg-white"} />
         <Card
           translateX={-60}
           translateY={30}

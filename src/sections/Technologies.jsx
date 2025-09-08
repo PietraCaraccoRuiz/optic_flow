@@ -1,7 +1,7 @@
 import ItemTech from "../components/ItemTech";
 import Python from "../assets/Python.svg";
 import Django from "../assets/Django.svg";
-import Yolo from "../assets/Yolo.svg";
+import Yolo from "../assets/yolo.png";
 import Tailwind from "../assets/Tailwind.svg";
 import React from "../assets/react.svg";
 
