@@ -47,14 +47,7 @@
 
 
 /* camada interna para contraste */
-.border-light::after {
-    content: '';
-    position: absolute;
-    inset: 1px;
-    background: rgba(26, 26, 26, 0.7); /* sem ficar totalmente preto */
-    border-radius: calc(1rem - 1px);
-    z-index: 1;
-}
+
 
 .card-radial {
     background: radial-gradient(
