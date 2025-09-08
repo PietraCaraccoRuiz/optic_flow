@@ -1,8 +1,8 @@
 import ItemTech from "../components/ItemTech";
 import Python from "../assets/Python.svg";
-import Django from "../assets/django.svg";
-import Yolo from "../assets/yolo.svg";
-import Tailwind from "../assets/tailwind.svg";
+import Django from "../assets/Django.svg";
+import Yolo from "../assets/Yolo.svg";
+import Tailwind from "../assets/Tailwind.svg";
 import React from "../assets/react.svg";
 
 const Technologies = () => {
