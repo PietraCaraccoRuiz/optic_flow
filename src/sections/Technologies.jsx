@@ -1,5 +1,5 @@
 import ItemTech from "../components/ItemTech";
-import Python from "../assets/python.svg";
+import Python from "../assets/Python.svg";
 import Django from "../assets/django.svg";
 import Yolo from "../assets/yolo.svg";
 import Tailwind from "../assets/tailwind.svg";
