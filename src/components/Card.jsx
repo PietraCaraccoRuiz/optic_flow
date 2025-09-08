@@ -4,7 +4,7 @@ const Card = ({ top, shadow, z, rotate, translateX, translateY , img, text, p}) 
   return (
     <>
       <div
-        className="w-[40vh] h-[26vh] card-gradient flex justify-center rounded-[17px]"
+        className="w-[23vh] h-[26vh] card-gradient flex justify-center rounded-[17px]"
         style={{
         top: `${top}px`,
         boxShadow: shadow ? shadow : "none",
