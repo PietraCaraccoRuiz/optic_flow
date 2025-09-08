@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-[#131416]'>
+      <div className='bg-[#131416] overflow-hidden'>
         <Hero />
         <Cards />
         <Technologies />
