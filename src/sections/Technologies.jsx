@@ -12,7 +12,7 @@ const Technologies = () => {
         <h1 className="text-1xl bg-gradient-to-b from-white to-gray-400/50 bg-clip-text text-transparent z-2">
           Technologies & Tools
         </h1>
-        <div  className="flex  gap-2">
+        <div  className="flex gap-2">
           <ItemTech img={Python}/>
           <ItemTech img={Django}/>
           <ItemTech img={Yolo}/>
