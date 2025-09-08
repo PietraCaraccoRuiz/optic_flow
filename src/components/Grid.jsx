@@ -3,9 +3,8 @@ import React from "react";
 const Grid = ({ rows = 15, cols = 100, size = 22 }) => {
   const lines = [];
 
-  // Linhas horizontais com fade
   for (let i = 0; i <= rows; i++) {
-    const opacity = 1 - i / rows; // topo 100%, base 0%
+    const opacity = 1 - i / rows;
     lines.push(
       <div
         key={`h-${i}`}
