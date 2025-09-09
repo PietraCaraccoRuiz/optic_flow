@@ -24,7 +24,7 @@ const Team = () => {
         </p>
       </div>
 
-      <div className='relative w-full h-[35vh]'>
+      <div className='relative w-full h-[25vh]'>
         <img className='absolute bottom-0' src={Grid} />
         <img className='absolute bottom-0 w-30 z-4' src={Circle} />
         <img className='absolute bottom-0 w-25 z-4' src={Logo} />
