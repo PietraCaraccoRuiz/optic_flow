@@ -13,17 +13,17 @@ const Team = () => {
           <img src={Foto} className="w-full h-full object-cover" />
           <div className="shadow-layer-top"></div>
           <div className="shadow-layer-bottom"></div>
-
-          <div className="absolute inset-0 flex flex-col items-center justify-end px-6 text-center mb-[4vh]">
-            <h1 className="text-3xl font-extrabold tracking-wide bg-gradient-to-b from-white to-white/40 bg-clip-text text-transparent">
+        </div>
+        <div className="absolute w-full h-[20vh] z-1 top-30 bg-gradient-to-t from-black/100 to-black/0"></div>
+      </div>
+      <div className="flex flex-col items-center justify-end px-6 text-center mb-[4vh] z-100">
+            <h1 className="text-3xl font-extrabold tracking-wide bg-gradient-to-b z-100 from-white to-gray-500/40 bg-clip-text text-transparent mt-[2vh]">
               Development Team
             </h1>
-            <p className="mt-3 max-w-[40vh] text-white text-[1.5vh] sm:text-base drop-shadow-md">
+            <p className="bg-gradient-to-l z-100 from-white to-gray-400/80 text-[1.2vh] mt-[1vh] text-justify bg-clip-text text-transparent z-2">
               Alex Pinheiro, Antônio Rodrigues, Pedro Carreteiro, Pietra Ruiz, Samuel Miller
             </p>
           </div>
-        </div>
-      </div>
 
       <div className='relative w-full h-[35vh]'>
         <img className='absolute bottom-0' src={Grid} />
