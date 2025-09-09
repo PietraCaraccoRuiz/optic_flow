@@ -6,17 +6,17 @@ import Token from "../assets/token.svg";
 
 const Cards = () => {
   return (
-    <div className="relative w-full h-60 flex flex-col justify-center items-center">
+    <div className="relative w-full h-60 flex flex-col justify-center items-center mt-[10vh]">
       <div className="flex w-full justify-center">
-        <h1 className="text-3xl bg-gradient-to-b from-white to-gray-400/50 bg-clip-text text-transparent">
+        <h1 className="text-3xl bg-gradient-to-b from-white to-gray-600/50 z-100 bg-clip-text text-transparent">
           The protection you
         </h1>
       </div>
       <div className="flex w-full justify-between px-15">
-        <h1 className="text-3xl bg-gradient-to-b from-white/60 to-gray-400/50 bg-clip-text text-transparent z-0">
+        <h1 className="text-3xl bg-gradient-to-b z-100 from-white/60 to-gray-300/50 bg-clip-text text-transparent">
           can
         </h1>
-        <h1 className="text-3xl bg-gradient-to-b from-white/60 to-gray-400/50 bg-clip-text text-transparent z-0">
+        <h1 className="text-3xl bg-gradient-to-b from-white/60 to-gray-400/50 bg-clip-text text-transparent z-100">
           see
         </h1>
       </div>

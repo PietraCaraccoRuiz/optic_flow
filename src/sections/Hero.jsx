@@ -37,12 +37,12 @@ const Hero = () => {
         </div>
       </div>
       <Grid />
-      <div className="flex relative w-full top-30 z-1">
-        <img src={Circle} className="absolute w-40 right-0 -top-10" />
+      <div className="flex relative w-full top-[20vh] z-1 justify-center">
+        <img src={Circle} className="absolute w-40 right-0 -top-5" />
         <img src={Camera} className="absolute w-40 left-0 z-2" />
-        <div className="absolute w-[35vh] mt-4 rounded-2xl border-light z-1 flex flex-col justify-center items-center left-18 gap-1 py-1">
+        <div className="absolute top-[14vh] w-[40vh] mt-4 rounded-2xl border-light z-1 flex flex-col justify-center items-center gap-1 py-1">
           <h1 className="text-white text-[1.9vh] pl-10 font-semibold z-2">Overview</h1>
-          <p className="bg-gradient-to-l from-white to-gray-800/80 text-[1.5vh] pl-15 pr-5 text-justify bg-clip-text text-transparent z-2">
+          <p className="bg-gradient-to-l from-white to-gray-400/80 text-[2vh] m-[1vh] mx-[5vh] text-justify bg-clip-text text-transparent z-2">
             <span className=" text-white">SafetySight</span> is an artificial intelligence system developed to
             enhance safety in industrial environments. Using factory-installed
             cameras and computer vision algorithms, the AI ​​performs real-time
