@@ -55,9 +55,10 @@ const Cards = () => {
         <div className="absolute w-[28vh] h-28 bg-black/70 rounded-4xl blur-[13px] z-1"></div>
         <div className="absolute w-[18.4vh] h-[25.5vh] rounded-2xl shadow-[0_0_40px_rgba(65,166,130,0.8)] z-0"></div>
       </div>
-      <img src={Brilhos} className="absolute z-2 opacity-25 -top-5" />
-      <div className="absolute w-full h-[50vh] z-4 top-45 bg-gradient-to-b from-black/100 via-black/0 to-black/0"></div>
-      <div className="absolute w-full h-30 blur-[35px] z-3 top-45 bg-[rgba(65,166,130,0.7)]"></div>
+      <img src={Brilhos} className="absolute z-2 opacity-18 -top-5" />
+      <div className="absolute w-full h-[60vh] z-4 top-45 bg-gradient-to-b from-black/100 to-black/0"></div>
+      <div className="absolute w-full h-30 blur-[35px] z-3 top-45 bg-[rgba(65,166,130,0.7)] "></div>
+      <div className="absolute w-full h-30 blur-[35px] z-4 top-60 bg-[rgba(65,166,130,0.2)] "></div>
     </div>
   );
 };
