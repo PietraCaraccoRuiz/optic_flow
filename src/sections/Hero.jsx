@@ -42,7 +42,7 @@ const Hero = () => {
         <img src={Camera} className="absolute w-40 left-0 z-2" />
         <div className="absolute w-[35vh] mt-4 rounded-2xl border-light z-1 flex flex-col justify-center items-center left-18 gap-1 py-1">
           <h1 className="text-white text-[1.9vh] pl-10 font-semibold z-2">Overview</h1>
-          <p className="bg-gradient-to-l from-white to-gray-800/80 text-[1.2vh] pl-15 pr-5 text-justify bg-clip-text text-transparent z-2">
+          <p className="bg-gradient-to-l from-white to-gray-800/80 text-[1.5vh] pl-15 pr-5 text-justify bg-clip-text text-transparent z-2">
             <span className=" text-white">SafetySight</span> is an artificial intelligence system developed to
             enhance safety in industrial environments. Using factory-installed
             cameras and computer vision algorithms, the AI ​​performs real-time

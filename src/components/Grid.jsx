@@ -8,7 +8,7 @@ const Grid = ({ rows = 15, cols = 100, size = 22 }) => {
     lines.push(
       <div
         key={`h-${i}`}
-        className="absolute bg-gradient-to-b from-white/20  to-white/2"
+        className="absolute bg-gradient-to-b from-white/20 to-white/2"
         style={{
           top: i * size + "px",
           left: 0,
